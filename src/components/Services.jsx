@@ -11,16 +11,16 @@ const Services = () => {
             </div>
 
             <div className='text-5xl font-light'>
-                <div className='flex gap-4 items-center p-3'>
+                <div className='flex gap-4 items-center p-3 py-5 border-y border-gray-400'>
                     <h5>Frontend Development</h5>
                     <FaSquareArrowUpRight/>
                 </div>
-                <div className='flex gap-4 items-center p-3'>
+                <div className='flex gap-4 items-center p-5 border-y border-gray-400'>
                     <h5>Website Development</h5>
                     <FaSquareArrowUpRight />
 
                 </div>
-                <div className='flex gap-4 items-center p-3'>
+                <div className='flex gap-4 items-center p-5 border-y border-gray-400'>
                     <h5>Redesign Websites</h5>
                     <FaSquareArrowUpRight />
 
