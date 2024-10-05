@@ -1,4 +1,6 @@
 import React from 'react'
+import { FaSquareArrowUpRight } from "react-icons/fa6";
+
 
 const Services = () => {
     return (
@@ -8,15 +10,20 @@ const Services = () => {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, nesciunt facere in magnam dolor aliquam a, fugiat ducimus </p>
             </div>
 
-            <div className='w-'>
-                <div>
+            <div className='text-5xl font-light'>
+                <div className='flex gap-4 items-center p-3'>
                     <h5>Frontend Development</h5>
+                    <FaSquareArrowUpRight/>
                 </div>
-                <div>
+                <div className='flex gap-4 items-center p-3'>
                     <h5>Website Development</h5>
+                    <FaSquareArrowUpRight />
+
                 </div>
-                <div>
+                <div className='flex gap-4 items-center p-3'>
                     <h5>Redesign Websites</h5>
+                    <FaSquareArrowUpRight />
+
                 </div>
             </div>
         </div>
