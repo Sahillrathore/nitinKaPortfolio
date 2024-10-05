@@ -17,10 +17,11 @@ const HeroSection = () => {
             <div className='flex justify-around mt-6 font-thin w-full p-3'>
                 <div className='text-white text-4xl'>
                     <h4>Frontend Developer.</h4>
-                    <button className='text-2xl font-normal px-4 mt-6 border py-2 bg-white rounded-full text-black'>Get in touch</button>
+                    <button className='text-2xl font-normal px-4 mt-6 border-2 border-transparent hover:border-white hover:bg-transparent hover:text-white transition-colors py-2 bg-white rounded-full text-black'>Get in touch</button>
                 </div>
                 <div className='text-white text-4xl'>
                     <h4>Based in Delhi, India.</h4>
+                    <button className='text-2xl float-right font-normal px-4 mt-6 border-2 border-transparent hover:border-white hover:bg-transparent hover:text-white transition-colors py-2 bg-white rounded-full text-black'>Get in touch</button>
                 </div>
             </div>
 
