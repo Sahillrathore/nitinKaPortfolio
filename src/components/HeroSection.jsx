@@ -16,13 +16,13 @@ const HeroSection = () => {
                 <motion.h3
                     whileInView={{ opacity: [0.8, 1], x: [100, 0] }}
                     transition={{ duration: .5 }}
-                className='text-white text-center text-5xl tracking-widest font-bold relative z-30'>Software Dev<span className=' bg-gradient-to-r from-gray-600 via-gray-800 to-violet-900 bg-clip-text text-transparent'>eloper</span> & Web Designer
+                className='text-white text-center text-5xl tracking-widest font-bold relative z-30'>Software Dev<span className=' bg-gradient-to-r from-gray-600 via-gray-600 to-orange-800 bg-clip-text text-transparent'>eloper</span> & Web Designer
                 </motion.h3>
 
                 <motion.div
                     whileInView={{ opacity: [0.5, 1], scale: [0.4, 1] }}  // Scale transition
                     transition={{ duration: 0.5 }}  // Transition duration
-                    className='w-[22rem] absolute z-20 top-24'>
+                    className='w-[22rem] absolute z-20 top-[4.7rem]'>
                     <img src="13 5.png" alt="" />
                 </motion.div>
 
