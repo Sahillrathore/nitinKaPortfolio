@@ -14,8 +14,8 @@ const Footer = () => {
                 </div>
 
                 <div className='text-5xl flex gap-4'>
-                    <div className='border p-3 rounded-full'><FaGithub /></div>
-                    <div className='border p-3 rounded-full'><CiLinkedin /></div>
+                    <div className='border p-3 rounded-full cursor-pointer'><FaGithub /></div>
+                    <div className='border p-3 rounded-full cursor-pointer'><CiLinkedin /></div>
                 </div>
             </div>
 
@@ -24,15 +24,8 @@ const Footer = () => {
                 <div className="nav-links flex gap-4">
                     {
                         ['overview', 'about', 'skills', 'contact'].map((item) => (
-                            <li key={item} className='list-none'>
-                                <NavLink
-                                    to={`${item === 'overview' ? '/' : item}`}
-                                    className={({ isActive }) =>
-                                        `text-lg capitalize hover:text-gray-200 transition-colors font-normal px-1 list ${isActive ? 'text-gray-100' : 'text-gray-300'}`
-                                    }
-                                >
+                            <li key={item} className='list-none text-lg capitalize text-white cursor-pointer hover:text-gray-300 transition-colors font-normal px-1 list'>
                                     {item}
-                                </NavLink>
                             </li>
                         ))
                     }
