@@ -74,8 +74,8 @@ export default function ScrollSlider() {
     return (
         <>
             <section className="mt-8">
-                <ParallaxText baseVelocity={-4}>Reactjs html tailwind material ui</ParallaxText>
-                <ParallaxText baseVelocity={4}>api hooks css json javascript</ParallaxText>
+                <ParallaxText baseVelocity={-2}>Reactjs html tailwind material ui</ParallaxText>
+                <ParallaxText baseVelocity={2}>api hooks css json javascript</ParallaxText>
             </section>
             {/* <Footer/> */}
         </>
