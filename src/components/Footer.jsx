@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 const Footer = () => {
     return (
         <div className='px-20'>
-            {/* <div className='flex justify-between items-center border-b border-gray-300 pb-12 px-2 text-white'>
+            <div className='flex justify-between items-center border-b border-gray-300 pb-12 px-2 text-white'>
                 <div>
                     <h4 className='capitalize font-medium text-6xl '>Follow Me</h4>
                     <p className='text-gray-200 text-xl'>On my journey</p>
@@ -17,7 +17,7 @@ const Footer = () => {
                     <div className='border p-3 rounded-full cursor-pointer'><FaGithub /></div>
                     <div className='border p-3 rounded-full cursor-pointer'><CiLinkedin /></div>
                 </div>
-            </div> */}
+            </div>
 
             <div className='flex justify-between px-20 py-4'>
                 <span className='text-2xl text-white font-bold'>Nitin</span>
