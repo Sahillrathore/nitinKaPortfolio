@@ -4,7 +4,8 @@ import { CiLinkedin } from "react-icons/ci";
 import { NavLink } from 'react-router-dom';
 
 
-const Footer = () => {
+const Footer = () => { 
+    
     return (
         <div className='px-20'>
             <div className='flex justify-between items-center border-b border-gray-300 pb-12 px-2 text-white'>
