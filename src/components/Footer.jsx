@@ -10,7 +10,7 @@ const Footer = () => {
         <div className='px-20'>
             <div className='flex justify-between items-center border-b border-gray-300 pb-12 px-2 text-white'>
                 <div>
-                    <h4 className='capitalize font-medium text-6xl '>Follow Me</h4>
+                    <h4 className='capitalize font-medium text-6xl '>Follow Me -</h4>
                     <p className='text-gray-200 text-xl capitalize'>On my journey</p>
                 </div>
 
