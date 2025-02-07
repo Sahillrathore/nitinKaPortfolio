@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaGithub } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
-// import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 const Footer = () => { 
